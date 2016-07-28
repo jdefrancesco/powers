@@ -77,7 +77,7 @@ main:
 	push dword [IntVal]
 	push OutFmtString
 	call printf
-	add esp, 4 
+	add esp, 8 
 
 .Exit:
 	; Epilog (C calling convention)
