@@ -51,6 +51,7 @@ main:
 	push IntVal
 	push InPrompt
 	call scanf
+	add esp, 8
 
 	; Determine if number is indeed a power of two.
 	; (x AND (x-1)) == 0, then x is power of two else it is not
