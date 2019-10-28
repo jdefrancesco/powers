@@ -68,7 +68,7 @@ main:
 	push dword [IntVal]
 	push FailString 
 	call printf
-	add esp, 4
+	add esp, 8 ; fixed.
 
 	jmp .Exit
 
